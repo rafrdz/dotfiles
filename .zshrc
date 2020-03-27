@@ -1,11 +1,14 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Set colors for LS_COLORS
-eval `dircolors ~/.dircolors`
+# Set colors for LS_COLORS (For WSL)
+#eval `dircolors ~/.dircolors`
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/rafael/.oh-my-zsh"
+# linux
+#export ZSH="/home/rafael/.oh-my-zsh"
+# macos
+export ZSH="/Users/rafrdz/.oh-my-zsh"
 
 # Go Installation
 export PATH=$PATH:/usr/local/go/bin
