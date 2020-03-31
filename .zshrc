@@ -1,22 +1,24 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Set colors for LS_COLORS (For WSL)
 #eval `dircolors ~/.dircolors`
 
 # Path to your oh-my-zsh installation.
 # linux
-export ZSH="/home/rafael/.oh-my-zsh"
+#export ZSH="/home/rafael/.oh-my-zsh"
 # macos
-#export ZSH="/Users/rafrdz/.oh-my-zsh"
+export ZSH="/Users/rafrdz/.oh-my-zsh"
 
 # Go Installation
 export PATH=$PATH:/usr/local/go/bin
 
 # NVM Installation
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+# This loads nvm bash_completion
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
