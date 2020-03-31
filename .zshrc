@@ -6,9 +6,9 @@
 
 # Path to your oh-my-zsh installation.
 # linux
-#export ZSH="/home/rafael/.oh-my-zsh"
+export ZSH="/home/rafael/.oh-my-zsh"
 # macos
-export ZSH="/Users/rafrdz/.oh-my-zsh"
+#export ZSH="/Users/rafrdz/.oh-my-zsh"
 
 # Go Installation
 export PATH=$PATH:/usr/local/go/bin
@@ -22,7 +22,7 @@ export NVM_DIR="$HOME/.nvm"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="bira"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
