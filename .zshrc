@@ -6,9 +6,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 # linux
-#export ZSH="/home/$USER/.oh-my-zsh"
+#export ZSH="/home/rafael/.oh-my-zsh"
 # macos
-export ZSH="/Users/$USER/.oh-my-zsh"
+export ZSH="/Users/rafrdz/.oh-my-zsh"
 
 # Go Installation
 export PATH=$PATH:/usr/local/go/bin
@@ -24,7 +24,12 @@ export NVM_DIR="$HOME/.nvm"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="bira"
+ZSH_THEME="spaceship"
+
+# Spaceship ZSH Customization
+SPACESHIP_USER_SHOW=always
+SPACESHIP_DIR_TRUNC=0
+SPACESHIP_DIR_TRUNC_REPO=false
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -116,3 +121,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Hide name in agnoster theme
 prompt_context(){}
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/rafrdz/.sdkman"
+[[ -s "/Users/rafrdz/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/rafrdz/.sdkman/bin/sdkman-init.sh"
