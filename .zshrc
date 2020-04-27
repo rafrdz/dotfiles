@@ -5,10 +5,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 #eval `dircolors ~/.dircolors`
 
 # Path to your oh-my-zsh installation.
-# linux
-#export ZSH="/home/rafael/.oh-my-zsh"
-# macos
-export ZSH="/Users/rafrdz/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Go Installation
 export PATH=$PATH:/usr/local/go/bin
