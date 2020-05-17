@@ -33,6 +33,9 @@ SPACESHIP_DIR_TRUNC=0
 SPACESHIP_DIR_TRUNC_REPO=false
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_CHAR_SYMBOL="$ "
+SPACESHIP_PROMPT_FIRST_PREFIX_SHOW=true
+SPACESHIP_VENV_PREFIX='('
+SPACESHIP_VENV_SUFFIX=')'
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
