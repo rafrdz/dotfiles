@@ -8,6 +8,8 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 
 # Go Installation
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/usr/local/go/bin
 
 # NVM Installation
@@ -20,6 +22,9 @@ export NVM_DIR="$HOME/.nvm"
 # Deno installation
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+
+# Anaconda Setup
+export PATH="$HOME/anaconda3/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
